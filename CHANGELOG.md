@@ -1,5 +1,9 @@
 ## 0.1.1 (Unreleased)
 
+ENHANCEMENTS:
+* all resources: use Goca dynamic templates to build entitiies
+* resource/opennebula_virtual_machine: keep context from template, then override redefined pairs
+
 BUG FIXES:
 * resource/opennebula_virtual_machine: Start VM on Hold [GH-1]
 * resource/opennbula_virtual_machine: Attach nic or disk in the declared order [GH-5]
