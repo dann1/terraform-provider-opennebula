@@ -8,10 +8,7 @@
 
 ## Development
 
-Bug reports and pull requests are welcome on GitHub at
-https://github.com/OpenNebula/terraform-provider-opennebula/issues.
-
-Please follow [How to Contribute](https://github.com/OpenNebula/one/wiki/How-to-participate-in-Add_on-Development) rules for any pull request.
+[Bug reports](https://github.com/terraform-providers/terraform-provider-opennebula/issues) and [pull requests](https://github.com/terraform-providers/terraform-provider-opennebula/compare) are always welcome.
 
 ## Authors
 
@@ -28,7 +25,7 @@ Please follow [How to Contribute](https://github.com/OpenNebula/one/wiki/How-to-
 * Leverages [OpenNebula's XML/RPC API](https://docs.opennebula.org/5.8/integration/system_interfaces/api.html)
 * Tested on OpenNebula version 5.8
 
-This provider has been initiated to use official Goca from [OpenNebula](https://github.com/OpenNebula/one)
+This provider has been initiated to use official [Goca](https://github.com/OpenNebula/one/tree/master/src/oca/go/src/goca) from OpenNebula.
 
 For Older OpenNebula and Terraform releases, you can use non official provider from [Runtastic](https://github.com/runtastic/terraform-provider-opennebula) and enhanced by [BlackBerry](https://github.com/blackberry/terraform-provider-opennebula).
 
@@ -105,31 +102,26 @@ repopath$ go build -o terraform-provider-opennebula
 
 #### Integration with Terraform
 
-Create a terraform file to use OpenNebula provider (follow instructions on Wiki page of the project) and run `terraform init`.
-This will initialize terraform to use OpenNebula Provider.
-
-### With Terraform
-
-*Work In Progress*
-
 ## Configuration
 
 **Opennebula** provider has the following supports parameters:
 
-| **Parameter** | **Description**                       |
-| --------- | --------------------------------- |
-| **endpoint**  | URL to the OpenNebula XML-RPC API |
-| **username**  | OpenNebula username               |
-| **password**  | OpenNebula password OR token      |
+| **Parameter** | **Description**                    |
+| ------------- | ---------------------------------- |
+| **endpoint**  | URL to the OpenNebula XML-RPC API  |
+| **username**  | OpenNebula username                |
+| **password**  | OpenNebula password OR token       |
 | **version**   | Version of the provider (optional) |
 
 ## Usage
 
-Lots of Examples and details of data sources and resources parameters are available on the [Wiki](https://github.com/OpenNebula/terraform-provider-opennebula/wiki).
+Create a terraform file to use the OpenNebula provider and run `terraform init`. This will initialize terraform to use OpenNebula Provider. [This example](https://github.com/dann1/terraform-provider-opennebula/wiki/Example-Service) shows the usage of the opennebula terraform files.
+
+Lots of Examples and details of data sources and resources parameters are available on the [Wiki](https://github.com/OpenNebula/terraform-provider-opennebula/wiki) and [the Terraform provider page](https://www.terraform.io/docs/providers/opennebula/).
 
 ## References
 
-Other Projects about Terraform provider exists. This project has been inspired by [Runtastic](https://github.com/runtastic/terraform-provider-opennebula) and [BlackBerry](https://github.com/blackberry/terraform-provider-opennebula) projects
+Other Projects about Terraform provider exists. This project has been inspired by [Runtastic](https://github.com/runtastic/terraform-provider-opennebula) and [BlackBerry](https://github.com/blackberry/terraform-provider-opennebula) projects.
 
 ## License
 
