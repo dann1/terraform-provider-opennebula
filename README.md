@@ -80,13 +80,11 @@ Please note that this version is indended to be used with Terraform version 0.12
 The only way to use this add-on is to compile it from source code.
 OpenNebula Terraform provider is written in Golang, you must have a Golang environment to compile the provider.
 
-A Golang dependency management tool is also required. This README is based on [goland/dep](https://github.com/golang/dep)
+A Golang dependency management tool is also required. This README is based on [goland/dep](https://github.com/golang/dep).
 
 ## Installation
 
 ### From Source
-
-#### Compilation
 
 1. Get the code of the OpenNebula provider.
 2. Get provider dependencies (if you use go dep)
